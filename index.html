@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!-- Defines the Header section of the Page, Linked files, Meta Tags, etc-->
+<head>
+  <title>Andrews Portfolio</title>
+
+  <link rel="stylesheet" href="css/StyleSheet.css" >
+  <script src="js/functions.js"></script>
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+</head>
+
+
+<!--Main Content of the Site Starts Here-->
+
+<body>
+
+
+  <!-- Controls the title (header) area of the site-->
+<header>
+
+  <div class="mypic">
+    <img src="img/mypic.png" alt="My Picture" height="80%" width="80%">
+  </div>
+
+  <div class="intro">
+
+    <div>
+      <h1> Welcome to my portfolio</h1>
+    </div>
+
+    <div>      
+      <img src="img/indent.png" width="80%" height="2px">
+    </div>
+
+    <div>      
+      <h3>Click below for more info.</h3>
+    </div>
+
+  </div>
+
+</header>
+
+
+<section>
+
+  <!-- Navigation Links Area-->
+<nav>
+  <ul>
+    <li onclick="changecontent (1)"><a id="b1" class="active" >Who Am I?</a></li>
+    <li onclick="changecontent (2)"><a id="b2" class="none">Why I Want to Code</a></li>
+    <li onclick="changecontent (3)"><a id="b3" class="none">Social</a></li>
+  </ul>
+
+</nav>
+
+<!--Page Indent for visual effects-->
+<div class="indent">      
+  <img src="img/indent.png" width="100%" height="2px">
+</div>
+
+<!-- Main Content area of the page. Each container is used to display content based off the corresponding navigation element that is selected-->
+<article>
+
+  <!--Container one contains the About me content-->
+  <div class="container" id="container">
+
+  <h1>Who Am I?</h1>
+
+  <p>Hi, I'm Andrew.</p>
+  <p>I am a tech enthusiast with a passion for science and exploration. Learning and discovering new things is an important part of my daily life.
+  
+  <br /><br />
+  
+  I started tinkering with computers as a child, trying to figure out how they were built. 
+  As time passed, I developed an interest in computer programming and web development as a passion in my spare time. 
+  Countless hours were spent tinkering with lines of codes and resarching how-to's and others code snippets with friends online, 
+  primarily working with community forum software to create new designs for both users websites and community board Style Sheets (css).
+  It was a fantastic learning experience, and I had a blast solving problems.
+  
+  <br /><br />
+  
+  As an adult, I started learning more about the hardware and networking side of the tech world, 
+  which eventually led to an interest (and diploma) in computer network administration. 
+  Although it was a fantastic experience, it was not the career path that I ended up pursuing. 
+  However, I have always maintained my love for computers and coding as my primary passion.
+  </p>
+
+</div>
+
+<!--Container 2 contains the Why i Want to Join GetCoding content-->
+  <div class="container" id="container2">
+    <h1>Why i want to Join</h1>
+
+    <p>
+      My goal is to take my passion for coding and become a software developer, while leveraging my knowledge of computer hardware and networking to complement my coding skills.
+      
+      <br /><br />
+      
+      I believe that GetCoding would be an excellent opportunity for me. Coming from working full-time jobs for the past decade, GetCoding's program offers me the flexibility to dedicate my time off to learning to code and progress through their program at my own pace while still being able to maintain my work and home life. Their program structure is exciting, and I look forward to working with their instructors on future projects.
+      </p> 
+    
+  </div>
+
+  <!--Container 3 contains the social media links, icons and effects-->
+    <div class="container" id="container3">
+
+      <h1>Social Media Links</h1>
+
+      <div style="width: 100%; display: inline-block;">
+    
+        <div class="icon">
+        <img src="img/linked.png" alt="LinkedIn Profile" height="125px" width="125px">
+
+          <a href="https://www.linkedin.com/in/andrew-patterson-2010145b/">
+            <div class="overlay">
+            <div class="text">Visit my LinkedIn</div>
+          </div></a>
+        </div>    
+        
+        <div class="icon">
+        <img src="img/facebook.png" alt="facebook Profile" height="125px" width="125px">
+ 
+        <a href="https://www.facebook.com/AndrewRWPatterson">
+          <div class="overlay">
+            <div class="text">Visit my facebook</div>
+          </div></a>
+      </div>   
+
+        <div class="icon">
+        <img src="img/insta.png" alt="Instagram Profile" height="125px" width="125px">
+        
+        <a href="https://www.instagram.com/andg_93/">
+          <div class="overlay">
+          <div class="text">Visit my Instagram</div>
+        </div></a>
+      </div>  
+
+        <div class="icon">
+        <img src="img/email.png" alt="email Me" height="125px" width="125px">
+
+        <a href="mailto:apatterson93@gmail.com">
+          <div class="overlay">
+          <div class="text">Send me an email</div>
+        </div></a> 
+      </div>
+        
+      </div>
+    
+      </div>
+
+</article>
+
+<!--Page Indent for visual effects-->
+<div class="indent">      
+  <img src="img/indent.png" width="100%" height="2px">
+</div>
+
+</section>
+
+<!--Content for the footer of the site-->
+<footer>
+<p>&copy;	 Copyright 2023 All Rights Reserved</p>
+</footer>
+
+
+</body>
+
+</html>
